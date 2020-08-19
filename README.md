@@ -20,3 +20,9 @@ Debes seguir el Código de honor del ingeniero de sistemas para defender el est�
 
 - No puedes participar en otras actividades que mejorarán de manera deshonesta tus resultados o que mejorarán de manera deshonesta o dañarán los resultados de otras personas.
 
+
+
+![Capture](https://user-images.githubusercontent.com/43153078/90582759-2deae680-e194-11ea-9c4b-38204749c814.PNG)
+![Capture2](https://user-images.githubusercontent.com/43153078/90582762-2e837d00-e194-11ea-9941-81ce833a07e8.PNG)
+
+
