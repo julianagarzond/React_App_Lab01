@@ -12,6 +12,33 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.textbox-dg
+{
+    height:30px;
+    width :270px;
+    font-size:11pt;
+    background: #FFFAF0 ;
+    border-radius: 6px;
+    overflow: hidden;
+    border: 1px solid ;
+    /* box-shadow: 10px 10px 36px rgb(0,0,0,0.5), -13px -13px 23px rgba(255,255,255, 0.03), inset 14px 14px 70px rgb(0,0,0,0.2), inset -15px -15px 30px rgba(255,255,255, 0.04); */
+    box-shadow: 10px 10px 36px rgb(0,0,0,0.5), -13px -13px 23px rgba(255,255,255, 0.03);
+    border-width: 1px 0px 0 1px;
+    margin-top: 15px;
+}
+
+
+
+.form-control:focus
+{
+
+    border: 1px solid #344d2e;
+    color: #495057;
+    outline: 0;
+    background: #FFFAF0;
+    border-radius: 10px;
+    box-shadow: 10px 10px 36px rgb(0,0,0,0.5), -13px -13px 23px rgba(255,255,255, 0.03);
+}
 
 .App-header {
   background-color: #282c34;
@@ -20,14 +47,37 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc( 2vmin);
+  font-size: calc( 1.5vmin);
   color: white;
 }
 
 .App-link {
   color: #61dafb;
 }
-
+.myButton {
+	box-shadow: 3px 0px 0px 0px #1564ad;
+	background:linear-gradient(to bottom, #a8d8ea 5%, #9ab9d6 100%);
+	background-color:#a8d8ea;
+	border-radius:5px;
+	border:1px solid #337bc4;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:10px 44px;
+	text-decoration:none;
+	text-shadow:0px -1px 1px #528ecc;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #9ab9d6 5%, #a8d8ea 100%);
+	background-color:#9ab9d6;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
